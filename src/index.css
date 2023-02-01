@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  font-family: "Telma", cursive;
+}
+
+.background {
+ background:
+      radial-gradient(circle farthest-side at 0% 50%,#16171b 23.5%,#0000 0)21px 30px,
+      radial-gradient(circle farthest-side at 0% 50%,#090907 24%,#0000 0)19px 30px,
+      linear-gradient(#16171b 14%,#0000 0, #0000 85%,#16171b 0)0 0,
+      linear-gradient(150deg,#16171b 24%,#090907 0,#090907 26%,#0000 0,#0000 74%,#090907 0,#090907 76%,#16171b 0)0 0,
+      linear-gradient(30deg,#16171b 24%,#090907 0,#090907 26%,#0000 0,#0000 74%,#090907 0,#090907 76%,#16171b 0)0 0,
+      linear-gradient(90deg,#090907 2%,#16171b 0,#16171b 98%,#090907 0%)0 0 #16171b;
+background-size: 40px 60px;
+background-color: #16171b;
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:20px;
+    box-sizing: border-box;
+}
+.card{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px rgba(212,185,150,.5);
+    transition: .5s;
+    text-align: center;
+    position: relative;
+}
+/* font-family: 'Telma', cursive;
+font-family: 'Zodiak', serif;
+font-family: 'Ranade', sans-serif; */
